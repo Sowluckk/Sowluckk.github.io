@@ -1,0 +1,1345 @@
+/*Beggining of the index.html*/
+
+body{
+    margin: 0px;
+    display: flow-root;
+    background-image: url(images/wrath_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: green;
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+#title_icon{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.navbar ul{
+    box-shadow: 2px 2px black;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+    border: 3px solid;
+    border-color: wheat;
+    
+    background-image: url(images/b2.gif); 
+}
+.navbar a{
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: lightgray;
+    text-decoration: none;
+    
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar i{
+    position: relative;
+    top: 5px;
+}
+.navbar a:hover{
+    background-color: rgb(105, 167, 105);
+}
+.navbar li{
+    float: left;
+}
+
+article h2{
+    font-size: 3.2em;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+#introduction{
+    position: relative;
+    bottom: 30px;
+    width: 50%;
+    height: 420px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: lightgray;
+    
+    background-image: url(images/sky1.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#introduction p{
+    font-size: 2em;
+}
+#ps{
+    font-size: 1.5em;
+}
+
+#hobbies{
+    position: relative;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 05px; 
+    border: 3px solid;
+    border-radius: 20px;
+    color: aquamarine;
+    
+    background-image: url(images/sky2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#hobbies p{
+    font-size: 2em;
+}
+
+#finished_games{
+    position: relative;
+    top: 30px;
+    width: 50%;
+    height: 900px;
+    float: left;
+    padding: 05px; 
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/sky3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#finished_games li{
+    font-size: 2em;
+}
+
+#cat_gifs_title{
+    color: greenyellow;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+#cat1{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat2{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat3{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat4{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat5{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat6{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat7{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+#cat8{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+audio{
+    float: right;
+    position: relative;
+    bottom: 1750px;
+}
+
+/*End of the index.html*/
+
+/*Beggining of the screenshots.html*/
+
+
+#screenshot_icon{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    position: relative;  
+}
+
+#screenshot_wow{
+    position: relative;
+    left: 20%;
+    width: 29.5%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#screenshot_wow h2{
+    position: relative;
+    top: 75px;
+}
+
+#screenshot_ff14{
+    position: relative;
+    left: 20%;
+    width: 29.5%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: aquamarine;
+    
+    background-image: url(images/ff14/ff14_crystal_background.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#screenshot_ff14 h2{
+    position: relative;
+    top: 75px;
+}
+
+#screenshot_deepwoken{
+    position: relative;
+    right: 25.5%;
+    top: 318px;
+    width: 29.5%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: brown;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#screenshot_deepwoken h2{
+    position: relative;
+    top: 75px;
+}
+
+/*End of the screenshots.html*/
+
+/*Beggining of the wow.html*/
+
+#wow_image1{
+    position: relative;
+    left: 02%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#wow_image2{
+    position: relative;
+    left: 3.50%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image3{
+    position: relative;
+    left: 05%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image4{
+    position: relative;
+    left: 02%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape4.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#wow_image5{
+    position: relative;
+    left: 3.50%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape5.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image6{
+    position: relative;
+    left: 05%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape6.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image7{
+    position: relative;
+    left: 02%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_landscape7.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#wow_image8{
+    position: relative;
+    left: 3.50%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/woltk_landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image9{
+    position: relative;
+    left: 05%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/mop_leveling_friends.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image10{
+    position: relative;
+    left: 02%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/hc_turtle.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#wow_image11{
+    position: relative;
+    left: 3.50%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/turtle_scort.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#wow_image12{
+    position: relative;
+    left: 05%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/wow/chromie_tbc_opening.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+/*End of the wow.html*/
+
+/*Beggining of the ff14.html*/
+
+#ps_sub_screenshots{
+    position: relative;
+    left: 700px;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0px;
+    color: greenyellow;
+    text-shadow: 2px 2px black;
+}
+
+#ff14_image1{
+    position: relative;
+    left: 02%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_crystal_background.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image2{
+    position: relative;
+    left: 3.50%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image3{
+    position: relative;
+    left: 05%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image4{
+    position: relative;
+    left: 02%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image5{
+    position: relative;
+    left: 3.50%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape4.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image6{
+    position: relative;
+    left: 05%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape5.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image7{
+    position: relative;
+    left: 02%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape6.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image8{
+    position: relative;
+    left: 3.50%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape7.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image9{
+    position: relative;
+    left: 05%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape8.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image10{
+    position: relative;
+    left: 02%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape9.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image11{
+    position: relative;
+    left: 3.50%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape10.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image12{
+    position: relative;
+    left: 05%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape11.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image13{
+    position: relative;
+    left: 02%;
+    top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape12.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image14{
+    position: relative;
+    left: 3.50%;
+    top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_landscape13.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image15{
+    position: relative;
+    left: 05%;
+    top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image16{
+    position: relative;
+    left: 02%;
+    top: 125px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image17{
+    position: relative;
+    left: 3.50%;
+    top: 125px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image18{
+    position: relative;
+    left: 05%;
+    top: 125px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight4.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image19{
+    position: relative;
+    left: 02%;
+    top: 150px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight5.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image20{
+    position: relative;
+    left: 3.50%;
+    top: 150px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight6.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image21{
+    position: relative;
+    left: 05%;
+    top: 150px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight7.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image22{
+    position: relative;
+    left: 02%;
+    top: 175px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight8.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image23{
+    position: relative;
+    left: 3.50%;
+    top: 175px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight9.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image24{
+    position: relative;
+    left: 05%;
+    top: 175px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight10.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image25{
+    position: relative;
+    left: 02%;
+    top: 200px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight11.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#ff14_image26{
+    position: relative;
+    left: 3.50%;
+    top: 200px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/ff14_fight12.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#ff14_image27{
+    position: relative;
+    left: 05%;
+    top: 200px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/ff14/DofH_DofL_60_cap_HW.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+/*End of the ff14.html*/
+
+/*Beggining of the deepwoken.html*/
+
+#deepwoken_image1{
+    position: relative;
+    left: 02%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#deepwoken_image2{
+    position: relative;
+    left: 3.50%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape2.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image3{
+    position: relative;
+    left: 05%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape3.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image4{
+    position: relative;
+    left: 02%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape4.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#deepwoken_image5{
+    position: relative;
+    left: 3.50%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape5.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image6{
+    position: relative;
+    left: 05%;
+    top: 25px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape6.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image7{
+    position: relative;
+    left: 02%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape7.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#deepwoken_image8{
+    position: relative;
+    left: 3.50%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape8.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image9{
+    position: relative;
+    left: 05%;
+    top: 50px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape9.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image10{
+    position: relative;
+    left: 02%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape10.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#deepwoken_image11{
+    position: relative;
+    left: 3.50%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape11.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image12{
+    position: relative;
+    left: 05%;
+    top: 75px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape12.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image13{
+    position: relative;
+    left: 02%;
+    top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape13.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#deepwoken_image14{
+    position: relative;
+    left: 3.50%;
+    top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape14.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image15{
+    position: relative;
+    left: 05%;
+    top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_landscape15.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image16{
+    position: relative;
+    left: 02%;
+    top: 125px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_with_friend.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#deepwoken_image17{
+    position: relative;
+    left: 3.50%;
+    top: 125px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_with_friend2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image18{
+    position: relative;
+    left: 05%;
+    top: 125px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_with_friend3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#deepwoken_image19{
+    position: relative;
+    left: 02%;
+    top: 150px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/deepwoken/deepwoken_lacreatura.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+/*End of the deepwoken.html*/
+
+/*Beggining of the art.html*/
+
+#art_image1{
+    position: relative;
+    left: 02%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/art/smile.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+#art_image2{
+    position: relative;
+    left: 3.50%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/art/smile_2.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+#art_image3{
+    position: relative;
+    left: 05%;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 05px;
+    border: 3px solid;
+    border-radius: 20px;
+    color: wheat;
+    
+    background-image: url(images/art/smile_3.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px black;
+}
+
+/*End of the art.html*/
